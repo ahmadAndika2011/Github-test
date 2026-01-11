@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>hello world</h1>
     <h2>hello world 2</h2>
 
@@ -14,5 +14,16 @@
 
     <!--* JavaScript -->
     <script src="app.mjs"></script>
-</body>
+
+    <script>
+      const btn = document.createElement("button");
+      btn.innerText = "click me";
+      btn.id = "btn";
+
+      document.getElementById("btn").onclick = () => {
+        let name = prompt("what is your name: ");
+        alert(`hello ${name}`);
+      };
+    </script>
+  </body>
 </html>
