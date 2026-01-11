@@ -1,7 +1,8 @@
 const btn = document.createElement("button");
 btn.innerText = "click me";
+btn.id = "btn"
 
-btn.onclick = () => {
+document.getElementById("btn").onclick = () => {
   let name = prompt("what is your name: ");
   alert(`hello ${name}`);
 };
