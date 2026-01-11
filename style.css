@@ -1,0 +1,11 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcoral;
+    border: 10px solid rgb(118, 63, 57);
+}
